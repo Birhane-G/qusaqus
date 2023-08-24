@@ -13,16 +13,16 @@ function Landing_Page()
         <Header />
         <div className="body-center">
           <div className="landing-body-text">
-            <p className="landing-body-text-first">
-              <span className="green-span">SWAP</span> AND SHOP - FIND YOUR
-              PERFECT <span className="green-span">MATCH!</span>
+          <p className="landing-body-text-first">
+              <span className="green-span">SELL</span> AND BUY - FIND YOUR
+              PERFECT <span className="green-span">DELIVERY!</span>
             </p>
             <p className="landing-body-text-second">
               Trade your treasures, find new pleasures - Exchange with ease on
               our website
             </p>
             <button className="btn" onClick={handleButtonClick}>
-              REGISTER NOW
+              EXPLORE NOW
             </button>
           </div>
           <div className="landing-body-images">
