@@ -10,8 +10,8 @@ function UserNotificationPage() {
     {
       id: 1,
       image: `${chat}`,
-      title: "Gelila wants exchange",
-      text: "You bitch give my Tv back, you fucking bastard. you tricked me in to this",
+      title: "Gelila wants to buy",
+      text: " give me my Tv back, you fucking bastard. you tricked me in to this",
     },
 
     {
@@ -23,7 +23,7 @@ function UserNotificationPage() {
     {
       id: 3,
       image: `${chat}`,
-      title: "Alem wants exchange",
+      title: "Alem wants to buy",
       text: "onsec met consecteturDeliver request for um dolor sit, amet c adipisicing elit.Possi  idem quasi, porro nisi iure min",
     },
     {

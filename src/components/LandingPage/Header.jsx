@@ -80,6 +80,11 @@ const Header = () => {
               CONTACT
             </Link>
           </li>
+          <li>
+            <a className="login-link links" href="/login">
+              LOGIN
+            </a>
+          </li>
         </ul>
 
         {showCloseIcon && (
@@ -88,15 +93,7 @@ const Header = () => {
           </div>
         )}
       </nav>
-      <div className="login-section">
-        <ul className="nav-links">
-          <li>
-            <a className="login-link links" href="/login">
-              LOGIN
-            </a>
-          </li>
-        </ul>
-      </div>
+      
       <div className="hamburger" onClick={toggleNav}>
         {/* {showNav ? <FaTimes /> : <FaBars />} */}
       </div>
