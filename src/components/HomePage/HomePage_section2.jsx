@@ -1,61 +1,130 @@
 import ItemsDisplay from "./ItemsDisplay";
-
+import door from "../../assets/images/door.jpg"
+import wardrobe from "../../assets/images/wardrobe.jpg"
+import shelf from "../../assets/images/shelf.jpg"
 function HomePage_section2() {
   const sampleItems = [
     {
       id: 1,
-      type: "Shoe",
-      name: "Nike air force",
-      status: "Used for 4 months",
-      returns: "Shoe, Jacket, Sweater and a Hat",
-      image:
-        "https://images.unsplash.com/photo-1661956600684-97d3a4320e45?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwzNnx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60",
+      type: "Door",
+      name: "Waterproof Soundproof Internal Wood Door ",
+      stock: "1000+",
+      description: "New Interior Room Water Proof Door Design Waterproof Internal Wood Door Hotel Soundproof Bedroom Door",
+      image:door
     },
     {
       id: 2,
-      type: "Music instrument",
-      name: "Guitar",
-      status: "Used for 4 months",
-      returns: "Shoe, Jacket, Sweater and a Hat",
-      image:
-        "https://images.unsplash.com/photo-1684144820756-d6cafa65247b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0Mnx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60",
+      type: "Wardrobe",
+      name: "wooden wardrobe ",
+      stock: "1000+",
+      description: "Modern Style Wardrobe BASIC 4 doors 2 drawers Wooden Home Bedroom Furniture Particleboard",
+      image:wardrobe
     },
     {
       id: 3,
-      type: "Household",
-      name: "Curtain",
-      status: "Used for 4 months",
-      returns: "Shoe, Jacket, Sweater and a Hat",
-      image:
-        "https://images.unsplash.com/photo-1684134219110-6d18efc08205?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw2Mnx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60",
-    },
+      type: "Shelf",
+      name: "Waterproof Soundproof Internal Wood Door ",
+      stock: "1000+",
+      description: "New Interior Room Water Proof Door Design Waterproof Internal Wood Door Hotel Soundproof Bedroom Door",
+      image:shelf
+      },
     {
       id: 4,
-      type: "Household",
-      name: "TV Stand",
-      status: "Used for 4 months",
-      returns: "Phone, car spareparts, garage tools",
-      image:
-        "https://images.unsplash.com/photo-1661956603025-8310b2e3036d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHw5NHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60",
+      type: "Door",
+      name: "Waterproof Soundproof Internal Wood Door ",
+      stock: "1000+",
+      description: "New Interior Room Water Proof Door Design Waterproof Internal Wood Door Hotel Soundproof Bedroom Door",
+      image:door
     },
     {
       id: 5,
-      type: "Household",
-      name: "Curtain",
-      status: "Used for 4 months",
-      returns: "Shoe, Jacket, Sweater and a Hat",
-      image:
-        "https://images.unsplash.com/photo-1684134219110-6d18efc08205?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw2Mnx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60",
+      type: "Door",
+      name: "Waterproof Soundproof Internal Wood Door ",
+      stock: "1000+",
+      description: "New Interior Room Water Proof Door Design Waterproof Internal Wood Door Hotel Soundproof Bedroom Door",
+      image:door
     },
     {
       id: 6,
-      type: "Shoe",
-      name: "Nike air force",
-      status: "Used for 4 months",
-      returns: "Shoe, Jacket, Sweater and a Hat",
-      image:
-        "https://images.unsplash.com/photo-1661956600684-97d3a4320e45?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwzNnx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60",
+      type: "Door",
+      name: "Waterproof Soundproof Internal Wood Door ",
+      stock: "1000+",
+      description: "New Interior Room Water Proof Door Design Waterproof Internal Wood Door Hotel Soundproof Bedroom Door",
+      image:door
     },
+    {
+      id: 7,
+      type: "Door",
+      name: "Waterproof Soundproof Internal Wood Door ",
+      stock: "1000+",
+      description: "New Interior Room Water Proof Door Design Waterproof Internal Wood Door Hotel Soundproof Bedroom Door",
+      image:door
+    },
+    {
+      id: 8,
+      type: "Door",
+      name: "Waterproof Soundproof Internal Wood Door ",
+      stock: "1000+",
+      description: "New Interior Room Water Proof Door Design Waterproof Internal Wood Door Hotel Soundproof Bedroom Door",
+      image:door
+    },
+    {
+      id: 9,
+      type: "Door",
+      name: "Waterproof Soundproof Internal Wood Door ",
+      stock: "1000+",
+      description: "New Interior Room Water Proof Door Design Waterproof Internal Wood Door Hotel Soundproof Bedroom Door",
+      image:door
+    },
+    {
+      id: 10,
+      type: "Door",
+      name: "Waterproof Soundproof Internal Wood Door ",
+      stock: "1000+",
+      description: "New Interior Room Water Proof Door Design Waterproof Internal Wood Door Hotel Soundproof Bedroom Door",
+      image:door
+    },
+    {
+      id: 11,
+      type: "Door",
+      name: "Waterproof Soundproof Internal Wood Door ",
+      stock: "1000+",
+      description: "New Interior Room Water Proof Door Design Waterproof Internal Wood Door Hotel Soundproof Bedroom Door",
+      image:door
+    },
+    {
+      id: 12,
+      type: "Door",
+      name: "Waterproof Soundproof Internal Wood Door ",
+      stock: "1000+",
+      description: "New Interior Room Water Proof Door Design Waterproof Internal Wood Door Hotel Soundproof Bedroom Door",
+      image:door
+    },
+    {
+      id: 13,
+      type: "Door",
+      name: "Waterproof Soundproof Internal Wood Door ",
+      stock: "1000+",
+      description: "New Interior Room Water Proof Door Design Waterproof Internal Wood Door Hotel Soundproof Bedroom Door",
+      image:door
+    },
+    {
+      id: 14,
+      type: "Door",
+      name: "Waterproof Soundproof Internal Wood Door ",
+      stock: "1000+",
+      description: "New Interior Room Water Proof Door Design Waterproof Internal Wood Door Hotel Soundproof Bedroom Door",
+      image:door
+    },
+    {
+      id: 15,
+      type: "Door",
+      name: "Waterproof Soundproof Internal Wood Door ",
+      stock: "1000+",
+      description: "New Interior Room Water Proof Door Design Waterproof Internal Wood Door Hotel Soundproof Bedroom Door",
+      image:door
+    },
+
   ];
   return (
     <div className="home-page-section2">

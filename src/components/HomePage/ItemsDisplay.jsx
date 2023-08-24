@@ -52,7 +52,7 @@ function ItemsDisplay({ items }) {
 
   return (
     <>
-      {items.map(({ id, type, name, status, returns, image }) => (
+      {items.map(({ id, type, name, stock, description, image }) => (
         <div className="section2-card" key={`list-item-${id}`}>
           <div className="section1-card-top section2-card-top ">
             <div className="card-top-text">
@@ -64,12 +64,12 @@ function ItemsDisplay({ items }) {
                     {type}
                   </p>
                   <p>
-                    <strong>Status: </strong>
-                    {status}
+                    <strong>Stock: </strong>
+                    {stock}
                   </p>
                   <p>
-                    <strong>Items in return: </strong>
-                    {returns}
+                    <strong>Description: </strong>
+                    {description}
                   </p>
                 </li>
               </ul>
@@ -168,7 +168,7 @@ function ItemsDisplay({ items }) {
             </div>
           </div>
           <div className="card-top-img section2-img">
-            <img src={image} alt="Google Logo" />
+            <img src={image} alt="images" />
           </div>
         </div>
       ))}
