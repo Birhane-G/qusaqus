@@ -1,7 +1,7 @@
 import React from "react";
 import AboutUs from "./LandingPage/AboutUs";
 import ContactUs from "./LandingPage/ContactUs";
-// import Footer from "./LandingPage/Footer";
+import Footer from "./LandingPage/Footer";
 import Landing_Page from "./LandingPage/Landing_Page";
 import LastSec from "./LandingPage/LastSec";
 import Section1 from "./LandingPage/Section1";
@@ -20,7 +20,7 @@ export const Index = () => {
       <Testimonial />
       <ContactUs />
       <LastSec />
-      {/* <Footer /> */}
+      <Footer />
     </React.Fragment>
   );
 };

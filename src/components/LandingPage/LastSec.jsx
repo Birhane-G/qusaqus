@@ -5,8 +5,9 @@ function LastSec() {
   return (
     <div className="last-sec">
       <span>
-        Are you tired of clutter and ready to swap your gently used items for
-        something new and exciting?
+      Sell your tailored products for our clients <br />
+      Deliver the promised quality by efficiency <br />
+      Buy online to save your energy and time
       </span>
       <button className="btn2" onClick={handleButtonClick}>
         REGISTER NOW
