@@ -7,13 +7,7 @@ function AboutUs() {
       <div className="aboutus-text">
         <h1>ABOUT US</h1>
         <p>
-          We are a community-driven platform committed to offering a seamless
-          and secure experience for buying and selling already pre-owned items,
-          swapping industrial, electronic, and mechanical supplies. We take
-          pride in our commitment to integrity, diversity, and innovation, and
-          we’re always looking to improve our services to meet the evolving
-          needs of our valued customers. Thank you for choosing us as your go-to
-          exchange website, and we look forward to serving you.
+        We believe there is a gap in product reliability in the homeware and furniture industry; this market is accessed by word of mouth, or clients have to waste a lot of energy and money to choose and purchase furniture or homeware, our platform is to promote African-made products for the broader ordinance. We made this  e-commerce site for SMEs in the furniture and homeware industry and made it easy for them to sell their products online.
         </p>
       </div>
       <div className="aboutus-img">

@@ -101,7 +101,7 @@
 
 .login-logo {
   position: relative;
-  width: 2.5em;
+  width: 5.5em;
   margin: 0.5em;
 }
 
@@ -164,8 +164,8 @@
 
 .signIn-register-btn {
   border-radius: 20px;
-  border: 1px solid #002349;
-  background-color: #002349;
+  border: 1px solid #1da1f2;
+  background-color: #68bff5;
   color: #fff;
   font-weight: bold;
   font-size: 13px;
@@ -195,7 +195,7 @@ button:focus {
 .sign-in-form button:hover,
 .sign-up-form button:hover,
 .overlay-container button:hover {
-  color: #002349;
+  color: #1da1f2;
   background-color: #fff;
 }
 
@@ -235,7 +235,7 @@ button:focus {
 
 .overlay {
   font-family: var(--ffroboto);
-  background: linear-gradient(to right bottom, #002349, #0352a7) no-repeat 0 0 /
+  background: linear-gradient(to right bottom, #81bbe2, #1da1f2) no-repeat 0 0 /
     cover;
   color: white;
   left: -100%;

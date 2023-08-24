@@ -22,7 +22,7 @@ function ScrollLine() {
       style={{
         width: lineWidth,
         height: "0.3em",
-        backgroundColor: "#31c719",
+        backgroundColor: "#13a79d",
         position: "relative",
         top: "0",
         left: "0",

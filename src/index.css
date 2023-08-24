@@ -44,8 +44,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2em 2em;
+  padding: 0.51em 0;
   color: white;
+}
+.header .logo-section img{
+  width: 35%;
+  height: 40%;
 }
 
 .logo-section {
@@ -98,6 +102,7 @@
   align-items: center;
   justify-content: center;
   height: 100%;
+  width: 100%;
   color: white;
 }
 

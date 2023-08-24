@@ -11,12 +11,11 @@ function Footer() {
     <div className="footer-root">
       <div className="footer-left">
         <div className="footer-logo">
-          <img src={footerLogo} alt="Lewach logo" />
+          <img src={footerLogo} alt=" logo" />
         </div>
         <div className="footer-text">
           <p>
-            Lewach is an items exchange website that users can exchange their
-            used items with each other. for more read about us section
+            QusaQus platform is aimed to promote African-made products for the broader ordinance. We made this  e-commerce site for SMEs in the furniture and homeware industry and made it easy for them to sell their products online.
           </p>
           <div className="footer-social-icons">
             {/* <FontAwesomeIcon
@@ -64,7 +63,7 @@ function Footer() {
           <a href="/" className="terms-privacy">
             Privacy Policy |
           </a>
-          @2023 Lewach. All Rights Reserved
+          @2023 QusaQus. All Rights Reserved
         </span>
       </div>
     </div>

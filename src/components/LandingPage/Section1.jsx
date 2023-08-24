@@ -20,9 +20,8 @@ function Section1() {
             <img src={platform} />
           </div>
           <p>
-            A platform to connect two parties who are willing to trade items of
-            their choice
-          </p>
+            A platform to connect <strong>Buyers</strong>, <strong> Sellers </strong> and 
+  <strong>Delivery Service Providers</strong> </p>
           <div className="card-number">1</div>
         </div>
         <div className="card">
@@ -43,7 +42,7 @@ function Section1() {
           <div className="icon-div icon4">
             <img src={chat} width="108px" />
           </div>
-          <p>Chatting system where users can talk and negotiate terms</p>
+          <p>A system where users and buyers negotiate terms</p>
           <div className="card-number">4</div>
         </div>
       </div>

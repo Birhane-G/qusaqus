@@ -16,15 +16,15 @@ function HomePage_section2() {
       id: 2,
       type: "Wardrobe",
       name: "wooden wardrobe ",
-      stock: "1000+",
-      description: "Modern Style Wardrobe BASIC 4 doors 2 drawers Wooden Home Bedroom Furniture Particleboard",
+      stock: "10-20",
+      description: "top quality hotel furniture new home bedroom furniture, 5 star hotel furniture luxurious",
       image:wardrobe
     },
     {
       id: 3,
       type: "Shelf",
-      name: "Waterproof Soundproof Internal Wood Door ",
-      stock: "1000+",
+      name: "6 Compartment shelf",
+      stock: "20",
       description: "New Interior Room Water Proof Door Design Waterproof Internal Wood Door Hotel Soundproof Bedroom Door",
       image:shelf
       },

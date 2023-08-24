@@ -2,7 +2,7 @@ import teamyoung from "../../assets/images/teamyoung.avif"
 import connect from "../../assets/images/connect.png";
 import delivery from "../../assets/images/delivery2.png";
 import waste from "../../assets/images/waste.png";
-import variety from "../../assets/images/variety.png";
+import variety from "../../assets/images/variety.jpg";
 import React, { useRef, useEffect } from "react";
 
 function Section2() {
@@ -29,20 +29,18 @@ function Section2() {
   }, []);
 
   return (
-    <div name="why-lewach" className="page3-cards">
+    <div name="why-qusaqus" className="page3-cards">
       <div>
-        <h2>WHY LEWACH</h2>
+        <h2>WHY QusaQus</h2>
       </div>
       <div
         className="page3-card card-1 fade-in"
         ref={(el) => (fadeIns.current[0] = el)}
       >
         <div className="page3-text">
-          <h2>Build a community of like minded people</h2>
+          <h2>Easy Comparison</h2>
           <p>
-            Connect with others who share your value and interests through items
-            exchange, creating a community centered around sustainability and
-            reducing waste
+          Compare products side by side, including features, prices, and customer ratings and delivery options
           </p>
         </div>
         <img src={teamyoung} />
@@ -52,11 +50,9 @@ function Section2() {
         ref={(el) => (fadeIns.current[1] = el)}
       >
         <div className="page3-text">
-          <h2>Connect with your community</h2>
+          <h2>Convenience</h2>
           <p>
-            Lewach helps with you connect with your local community by
-            exchanging items with people nearby. Support small businesses and
-            meet new people without leaving the comfort of your own home
+          Shop from the comfort of your home, saving time and effort.
           </p>
         </div>
         <img src={connect} />
@@ -66,11 +62,9 @@ function Section2() {
         ref={(el) => (fadeIns.current[2] = el)}
       >
         <div className="page3-text">
-          <h2>REDUCE WASTE</h2>
+          <h2>Variety</h2>
           <p>
-            By exchanging items with others, you can reduce waste and help the
-            environment. Lewach encourages sustainability and supports the
-            sharing economy.
+          Access a vast selection of furniture options, styles, colors, and materials.
           </p>
         </div>
         <img src={waste} />
@@ -80,10 +74,9 @@ function Section2() {
         ref={(el) => (fadeIns.current[3] = el)}
       >
         <div className="page3-text">
-          <h2>Convenient delivery service</h2>
+          <h2>Convenient delivery </h2>
           <p>
-            Our delivery service makes it easy to exchange items with others in
-            your community. You can arrange for pick-up and delivery of items,
+              Arrange for pick-up and delivery of items,
             saving you time and hassle.
           </p>
         </div>
@@ -94,11 +87,9 @@ function Section2() {
         ref={(el) => (fadeIns.current[4] = el)}
       >
         <div className="page3-text">
-          <h2>increase variety in your life</h2>
+          <h2>24/7 Availability</h2>
           <p>
-            Find new items to enjoy and explore through item exchange, including
-            unique and interesting pieces that might not have otherwise
-            discovered.
+          Shop anytime, day or night, without being restricted by store hours.
           </p>
         </div>
         <img src={variety} />

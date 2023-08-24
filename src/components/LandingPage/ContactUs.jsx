@@ -19,23 +19,14 @@ function ContactUs() {
         </div>
         <div className="contact-info">
           <div className="all-info-sec ">
-            <div className="email-sec info-sec">
-              <div className="info-icons">
-                <img src={email} />
-              </div>
-              <div className="email-info inside-sec">
-                <h2>EMAIL</h2>
-                <span>mmmabdulahi954@yahoo.com</span>
-                <span>mabdulahi954@gamil.com</span>
-              </div>
-            </div>
+            
             <div className="addess-sec info-sec">
               <div className="info-icons">
                 <img src={placeholder} />
               </div>
               <div className="address-info inside-sec">
                 <h2>ADDRESS</h2>
-                <span>Arbaminch university, Lemat, Arba minch.</span>
+                <span>Mexico, Addis Ababa, Ethiopia</span>
               </div>
             </div>
           </div>
@@ -46,19 +37,10 @@ function ContactUs() {
               </div>
               <div className="phone-info inside-sec">
                 <h2>PHONE</h2>
-                <span>Mobile: (+251) 913-70-15-96 </span>
-                <span>Mobile: (+251) 779-35-45-65 </span>
+                <span>Mobile: (+251)922901114 </span>
               </div>
             </div>
-            <div className="opening-sec info-sec">
-              <div className="info-icons">
-                <img src={clock} />
-              </div>
-              <div className="opening-info inside-sec">
-                <h2>OPENING HOURS</h2>
-                <span>Monday to Friday 8:00AM - 6:00PM </span>
-              </div>
-            </div>
+            
           </div>
         </div>
       </div>
@@ -73,6 +55,7 @@ function ContactUs() {
         </button>
       </div>
     </div>
+    
   );
 }
 

@@ -33,7 +33,7 @@ function SignIn() {
    
     // try {
     //   await login(email, password);
-    //   if (email === "adminlewach@gmail.com" && password === "lewachabmss") {
+    //   if (email === "adminqusaqus@gmail.com" && password === "qusaqusabmss") {
     //     window.location.href = "/adminDashboard";
     //   }
     // } catch (error) {

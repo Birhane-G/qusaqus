@@ -21,7 +21,6 @@ const Header = () => {
     <header className="header">
       <div className="logo logo-section">
         <img src={logo} />
-        <h2> LEWACH</h2>
       </div>
       <nav className={`nav ${showNav ? "show-nav" : ""}`}>
         <ul className="nav-links">
@@ -56,7 +55,7 @@ const Header = () => {
               duration={1500}
               onClick={handler}
             >
-              ABOUT US
+              ABOUTUS
             </Link>
           </li>
           <li>
