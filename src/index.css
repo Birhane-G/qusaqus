@@ -137,7 +137,7 @@
 .links:hover,
 .terms-privacy:focus,
 .terms-privacy:hover {
-  color: #13a79d;
+  color: #00A79D ;
 }
 
 .links:focus:after,
@@ -158,14 +158,14 @@ a:after {
   width: 0%;
   height: 3px;
   border-radius: 4px;
-  background-color: #13a79d;
+  background-color: #00A79D ;
   transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
   transition-duration: 300ms;
   transition-property: width, left;
 }
 
 .landing-root {
-  background: linear-gradient(180deg, rgba(253,29,233,1) 10%, rgba(58,177,180,1) 59%,  rgba(255,255,255,255) 90%, rgba(255,255,255,0) 100%);
+  background:  #00A79D ;
   background-size: cover;
   color: var(--fcolorwhite);
   margin: 0 0 1em 0;
@@ -216,7 +216,7 @@ a:after {
   text-align: center;
 }
 .LogotextAqua{
-  color:#13A79D;
+  color:#00A79D ;
 }
 .LogotextPink{
   color: #d91a5b;
@@ -247,8 +247,8 @@ a:after {
   box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
     7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
   outline: none;
-  background-color: #13a79d;
-  background-image: linear-gradient(315deg, #13a79d 0%, #d9195a 99.9%);
+  background-color: #00A79D ;
+  background-image: linear-gradient(315deg, #00A79D  0%, #d9195a 99.9%);
   border: none;
   z-index: 1;
 }
@@ -267,7 +267,7 @@ button {
   
   z-index: -1;
   border-radius: 5px;
-  background-image: linear-gradient(315deg, #13a79d 0%, #ec14da 74%);
+  background-image: linear-gradient(315deg, #00A79D  0%, #ec14da 74%);
   transition: all 0.3s ease;
 }
 
@@ -712,19 +712,19 @@ textarea {
 
 .btn2 {
   color: var(--fcolorwhite);
-  background-color: #13a79d;
+  background-color: #00A79D ;
   border-radius: 5px;
   padding: 0.5em;
   font-size: var(--fmid);
   font-family: var(--ffbebas);
   letter-spacing: 0.1em;
   cursor: pointer;
-  border: 2px solid #13a79d;
+  border: 2px solid #00A79D ;
   box-shadow: 2px 3px 13px rgb(46, 44, 44);
 }
 
 .btn2:hover {
-  color: #13a79d;
+  color: #00A79D ;
   background-color: #ffffff;
   box-shadow: none;
 }
@@ -817,7 +817,7 @@ textarea {
   padding: 10px;
   border-radius: 4px;
   border: none;
-  background-color: #13a79d;
+  background-color: #00A79D ;
   color: var(--fcolorwhite);
   font-weight: 600;
   box-shadow: 2px 3px 13px rgb(46, 44, 44);
@@ -1426,4 +1426,8 @@ textarea {
   .nav-links li {
     margin: 0 1em;
   }
+}
+.mt-3{
+  font-weight: 600;
+    color: #666;
 }

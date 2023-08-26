@@ -5,7 +5,7 @@ import React from "react";
 function Landing_Page()
 {
   const handleButtonClick = () => {
-    window.location.href = "/login"; 
+    window.location.href = "/FullHomepage"; 
   };
   return (
     <div className="landing-root">
